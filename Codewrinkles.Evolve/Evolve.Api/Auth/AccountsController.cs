@@ -10,7 +10,7 @@ public class AccountsController : ControllerBase
     [Route("api/signup")]
     public async Task<IActionResult> Register()
     {
-
+        Console.WriteLine("Registering user");
         return Ok();
     }
 }
