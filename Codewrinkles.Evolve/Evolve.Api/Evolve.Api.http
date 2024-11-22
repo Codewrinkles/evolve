@@ -1,0 +1,6 @@
+@Evolve.Api_HostAddress = http://localhost:5122
+
+GET {{Evolve.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
