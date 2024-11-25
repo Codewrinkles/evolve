@@ -1,9 +1,7 @@
-﻿// NameTests.cs
-using Xunit;
-using Evolve.Domain.Users;
-using System;
-using System.Xml.Linq;
+﻿using Evolve.Domain.Users;
 using Evolve.Domain.Users.Exceptions;
+
+namespace Evolve.Domain.Tests.Users;
 
 public class NameTests
 {

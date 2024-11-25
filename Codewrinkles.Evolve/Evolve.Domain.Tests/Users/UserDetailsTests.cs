@@ -1,7 +1,7 @@
-﻿// UserDetailsTests.cs
-using Xunit;
-using Evolve.Domain.Users;
+﻿using Evolve.Domain.Users;
 using Evolve.Domain.Users.Exceptions;
+
+namespace Evolve.Domain.Tests.Users;
 
 public class UserDetailsTests
 {
