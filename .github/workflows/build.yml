@@ -45,4 +45,5 @@ jobs:
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"Codewrinkles_evolve" /o:"codewrinkles" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build Codewrinkles.Evolve
+          dotnet test Codewrinkles.Evolve/Evolve.Domain.Tests
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
